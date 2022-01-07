@@ -1,37 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bellefair&display=swap");
+body {
+  background: url("/starter-code/assets/home/background-home-desktop.jpg");
+  color: #ffffff;
 
+  /* font-family: 'Barlow', sans-serif;
+font-family: 'Barlow Condensed', sans-serif;
+font-family: 'Bellefair', serif; */
+}
+.navbg {
+  background: rgba(255, 255, 255, 0.04);
+  /* backdrop-filter: blur(81.5485px); */
+}
 
 /* // Extra small devices portrait phones, less than 576px) */
-@media (max-width: 575.98px) {
+/* @media (max-width: 575.98px) {
  body{
     background-image: url("/starter-code/assets/home/background-home-mobile.jpg");
 }
- }
+ } */
 
 /* // Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) and (max-width: 768.98px) { 
+/* @media (min-width: 576px) and (max-width: 768.98px) { 
      body{
     background:no-repeat url("/starter-code/assets/home/background-home-tablet.jpg");
     
-}
- }
+} */
+/* } */
 
 /* // Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) and (max-width: 991.98px) { 
+/* @media (min-width: 768px) and (max-width: 991.98px) { 
       body{
     background:no-repeat url("/starter-code/assets/home/background-home-tablet.jpg");
 }
- }
+ } */
 
 /* // Large devices (desktops, 992px and up) */
-@media (min-width: 992px) and (max-width: 1199.98px) { 
-    body{
-    background:no-repeat contain url("/starter-code/assets/home/background-home-desktop.jpg");
-}
- }
 
 /* // Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) { 
+/* @media (min-width: 1200px) { 
     body{
     background-image: url("/starter-code/assets/home/background-home-desktop.jpg");
 }
- }
+ } */
