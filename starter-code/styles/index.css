@@ -2,7 +2,7 @@
 body {
   background: url("/starter-code/assets/home/background-home-desktop.jpg");
   color: #ffffff;
-
+font-size: 16px;
   /* font-family: 'Barlow', sans-serif;
 font-family: 'Barlow Condensed', sans-serif;
 font-family: 'Bellefair', serif; */
@@ -10,6 +10,12 @@ font-family: 'Bellefair', serif; */
 .navbg {
   background: rgba(255, 255, 255, 0.04);
   /* backdrop-filter: blur(81.5485px); */
+}
+
+nav{
+font-family: Barlow Condensed;
+font-style: normal;
+font-weight: normal;
 }
 
 /* // Extra small devices portrait phones, less than 576px) */
