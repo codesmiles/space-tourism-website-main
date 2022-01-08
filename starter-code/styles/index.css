@@ -18,6 +18,11 @@ font-style: normal;
 font-weight: normal;
 }
 
+.figmarect{
+   right:37em;
+    top:2.4em;
+    width:20em;
+}
 /* // Extra small devices portrait phones, less than 576px) */
 /* @media (max-width: 575.98px) {
  body{
