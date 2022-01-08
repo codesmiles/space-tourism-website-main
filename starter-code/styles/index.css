@@ -1,6 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bellefair&display=swap");
 body {
-  background: url("/starter-code/assets/home/background-home-desktop.jpg");
+  background-image:url("/starter-code/assets/home/background-home-desktop.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   color: #ffffff;
 font-size: 16px;
   /* font-family: 'Barlow', sans-serif;
@@ -8,7 +10,7 @@ font-family: 'Barlow Condensed', sans-serif;
 font-family: 'Bellefair', serif; */
 }
 .navbg {
-  background: rgba(255, 255, 255, 0.04);
+  background: rgba(207, 37, 37, 0.04);
   /* backdrop-filter: blur(81.5485px); */
 }
 
@@ -23,6 +25,15 @@ font-weight: normal;
     top:2.4em;
     width:20em;
 }
+
+.listing:hover{
+  border-bottom: 4px solid #fff;
+  transition: all 300ms linear;
+}
+.active-listing{
+  border-bottom: 4px solid #fff;
+}
+
 /* // Extra small devices portrait phones, less than 576px) */
 /* @media (max-width: 575.98px) {
  body{
