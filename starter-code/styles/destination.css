@@ -29,6 +29,36 @@ font-weight: normal;
 .active-listing{
   border-bottom: 4px solid #fff;
 }
+.unordered{
+    font-family: Barlow Condensed;
+/* font-style: normal;
+font-weight: normal; */
+line-height: 19px;
+letter-spacing: 2.7px;
+
+}
+
+.unordered>li{
+    margin: 0em 2em 0em 0em;
+    color:#D0D6F9;
+  
+}
+
+.unordered>li:hover{
+  border-bottom: 4px solid #fff;
+  transition: all 300ms linear;
+}
+.active-unordered{
+  border-bottom: 4px solid #fff;
+}
+.moon{
+    font-family: Bellefair;
+/* font-style: normal;
+font-weight: normal; */
+font-size: 100px;
+line-height: 115px;
+text-transform: uppercase;
+}
 
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
