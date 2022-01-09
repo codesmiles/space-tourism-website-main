@@ -71,6 +71,40 @@ line-height: 115px;
 text-transform: uppercase;
 }
 
+.ruler{
+    width:85%;
+}
+#body{
+    font-family: Barlow;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 32px;
+color: #D0D6F9;
+padding-right:5.4em;
+}
+#footer1-section1,#footer2-section1{
+font-family: Barlow Condensed;
+font-size: 14px;
+line-height: 17px;
+letter-spacing: 2.3625px;
+text-transform: uppercase;
+color: #D0D6F9;
+
+}
+
+#footer1-section2,#footer2-section2{
+    font-family: Bellefair;
+
+font-size: 28px;
+line-height: 32px;
+
+
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+}
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
     body{
