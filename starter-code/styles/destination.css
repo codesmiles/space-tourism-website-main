@@ -29,6 +29,17 @@ font-weight: normal;
 .active-listing{
   border-bottom: 4px solid #fff;
 }
+
+.h-destination{
+font-family: Barlow Condensed;
+/* font-style: normal;
+font-weight: normal; */
+font-size: 28px;
+line-height: 34px;
+letter-spacing: 4.725px;
+text-transform: uppercase;
+color: #FFFFFF;
+}
 .unordered{
     font-family: Barlow Condensed;
 /* font-style: normal;
