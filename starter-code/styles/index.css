@@ -1,19 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bellefair&display=swap");
-body {
-  background-image:url("/starter-code/assets/home/background-home-desktop.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: #ffffff;
-font-size: 16px;
-  /* font-family: 'Barlow', sans-serif;
+/* font-family: 'Barlow', sans-serif;
 font-family: 'Barlow Condensed', sans-serif;
 font-family: 'Bellefair', serif; */
-}
-.navbg {
-  background: rgba(207, 37, 37, 0.04);
-  /* backdrop-filter: blur(81.5485px); */
+
+
+body {
+  color: #ffffff;
+font-size: 16px;
+
 }
 
+.bgImg{
+display: none;
+}
 nav{
 font-family: Barlow Condensed;
 font-style: normal;
@@ -23,7 +22,7 @@ font-weight: normal;
 .figmarect{
    right:37em;
     top:2.4em;
-    width:20em;
+    width:22em;
 }
 
 .listing:hover{
@@ -34,31 +33,75 @@ font-weight: normal;
   border-bottom: 4px solid #fff;
 }
 
+.section1{
+  font-family: Barlow Condensed;
+font-size: 1.75em;
+line-height: 2.125em;
+letter-spacing:4.725px;
+color: #D0D6F9;
+font-style: normal;
+font-weight: normal;
+}
+.section2{
+  font-family: Bellefair;
+font-size: 150px;
+line-height: 172px;
+color: #ffffff;
+text-transform: uppercase;
+}
+.section3{
+  font-family: Barlow;
+font-size: 18px;
+line-height: 32px;
+color: #D0D6F9;
+}
+
 /* // Extra small devices portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
  body{
     background-image: url("/starter-code/assets/home/background-home-mobile.jpg");
+   
+}
+
+.bgImg{
+display: block;
+width: 100%;
 }
 
 
+.main{
+  display: none;
+}
  }
 
 /* // Small devices (landscape phones, 576px and up) */
-/* @media (min-width: 576px) and (max-width: 768.98px) { 
+@media (min-width: 576px) and (max-width: 768.98px) { 
      body{
     background:no-repeat url("/starter-code/assets/home/background-home-tablet.jpg");
-    
-} */
-/* } */
+    }
+
+
+}
+/* }
 
 /* // Medium devices (tablets, 768px and up) */
-/* @media (min-width: 768px) and (max-width: 991.98px) { 
+@media (min-width: 768px) and (max-width: 991.98px) { 
       body{
     background:no-repeat url("/starter-code/assets/home/background-home-tablet.jpg");
+    background-size: 100%;
 }
- } */
+
+ }
 
 /* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    body{
+    background-image: url("/starter-code/assets/home/background-home-desktop.jpg");
+     background-repeat: no-repeat;
+  background-size: cover;
+}
+
+ }
 
 /* // Extra large devices (large desktops, 1200px and up) */
 /* @media (min-width: 1200px) { 
