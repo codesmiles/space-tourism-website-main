@@ -1,37 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/starter-code/styles/destination.css">
   <title>Frontend Mentor | Space tourism website</title>
 </head>
+
 <body>
+  <nav class="navbar navbar-expand-sm mt-4 mt-md-0 mt-lg-4 p-0 position-lg-relative">
+    <div class="mx-sm-5">
+      <a href="#" class="navbar-brand"><img src="/figma img/main logo.svg" width="70%" alt=""></a>
+    </div>
 
-  00 Home
-  01 Destination
-  02 Crew
-  03 Technology
+    <button class="navbar-toggler border-0" data-toggle="collapse" data-target="#menu">
+      <img src="/figma img/toggler.svg" alt="">
 
-  01 Pick your destination
+    </button>
 
-  Moon
-  Mars
-  Europa
-  Titan
+    <div class="collapse navbar-collapse" id="menu">
 
-  Moon
+      <div class=" ms-auto ps-5 pe-5"
+        style="background-color:rgba(255, 255, 255, 0.04); backdrop-filter: blur(81.5485px);">
+        <ul class="navbar-nav d-flex justify-content-center pe-lg-5 ps-lg-5">
+          <img src="/figma img/nav Rectangle.svg" alt="" class="position-absolute d-none d-lg-block figmarect">
 
-  See our planet as you’ve never seen it before. A perfect relaxing trip away to help 
-  regain perspective and come back refreshed. While you’re there, take in some history 
-  by visiting the Luna 2 and Apollo 11 landing sites.
+          <li class="nav-item mx-md-2  py-3 listing ">
+            <a href="/starter-code/index.html" class="nav-link text-white"><b class="mx-lg-2 mx-1 d-md-none d-lg-inline"> 00</b>
+              <span>Home</span></a>
+          </li>
+          <li class="nav-item mx-md-2 py-3 listing active-listing">
+            <a href="destination-moon.html" class="nav-link text-white"><b
+                class="mx-lg-2 mx-1 d-md-none d-lg-inline">01</b><span>Destination</span> </a>
+          </li>
+          <li class="nav-item mx-md-2 py-3 listing">
+            <a href="#" class="nav-link text-white"><b class="mx-lg-2 mx-1 d-md-none d-lg-inline">02</b>
+              <span>Crew</span> </a>
+          </li>
+          <li class="nav-item mx-md-2  py-3 listing">
+            <a href="#" class="nav-link text-white"><b
+                class="mx-lg-2 mx-1 d-md-none d-lg-inline">03</b><span>Technology</span> </a>
+          </li>
+        </ul>
+      </div>
+    </div>
 
-  Avg. distance
-  384,400 km
 
-  Est. travel time
-  3 days
+  </nav>
+  <div class="container-fluid">
+    <div class="container">
+      <p>
+        01 Pick your destination
+      </p>
+      <div class="row">
+        <div class="col-md-6">
+
+        </div>
+        <div class="col-md-6">
+          <ul>
+            <li>Moon</li>
+            <li>Mars</li>
+            <li>Europa</li>
+            <li>Titan</li>
+          </ul>
+
+
+          <h1>
+            Moon
+          </h1>
+          <p>
+            See our planet as you’ve never seen it before. A perfect relaxing trip away to help
+            regain perspective and come back refreshed. While you’re there, take in some history
+            by visiting the Luna 2 and Apollo 11 landing sites.
+          </p>
+
+          <hr>
+
+          <div class="row">
+            <div class="col-6">
+              <p>
+                Avg. distance
+              </p>
+              <h3>
+                384,400 km
+              </h3>
+
+
+            </div>
+            <div class="col-6">
+              <p>
+                Est. travel time
+              </p>
+              <h3>
+                3 days
+              </h3>
+
+            </div>
+          </div>
+
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+  </script>
 </body>
+
 </html>
