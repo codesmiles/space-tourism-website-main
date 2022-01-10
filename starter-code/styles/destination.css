@@ -30,6 +30,8 @@ font-weight: normal;
   border-bottom: 4px solid #fff;
 }
 /* ______________________________________________________ */
+
+
 .h-destination{
 font-family: Barlow Condensed;
 /* font-style: normal;
@@ -74,6 +76,8 @@ text-transform: uppercase;
 .ruler{
     width:85%;
 }
+
+
 #body{
     font-family: Barlow;
 font-style: normal;
@@ -81,7 +85,7 @@ font-weight: normal;
 font-size: 18px;
 line-height: 32px;
 color: #D0D6F9;
-padding-right:5.4em;
+/* padding-right:5.4em; */
 }
 #footer1-section1,#footer2-section1{
 font-family: Barlow Condensed;
@@ -95,16 +99,12 @@ color: #D0D6F9;
 
 #footer1-section2,#footer2-section2{
     font-family: Bellefair;
-
 font-size: 28px;
 line-height: 32px;
-
-
 text-transform: uppercase;
-
 color: #FFFFFF;
-
 }
+
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
     body{
@@ -114,3 +114,63 @@ color: #FFFFFF;
 }
 
  }
+
+ /* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+      body{
+    background:no-repeat url("/starter-code/assets/destination/background-destination-tablet.jpg") center center;
+    background-size: 100%;
+}
+#body{
+  /* padding-right:0; */
+}
+
+.ruler{
+    width:100%;
+}
+
+
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 768.98px) { 
+     body{
+    background:no-repeat url("/starter-code/assets/destination/background-destination-tablet.jpg");
+  background-size: 100% 100%;       
+  }
+.moon{
+  font-size: 56px;
+line-height: 64px;
+}
+#body{
+  font-size: 15px;
+line-height: 25px;
+}    
+
+.ruler{
+    width:100%;
+}
+
+}
+
+/* // Extra small devices portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+ body{
+    background-image: url("/starter-code/assets/destination/background-destination-mobile.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.moon{
+  font-size: 56px;
+line-height: 64px;
+}
+#body{
+  font-size: 15px;
+line-height: 25px;
+}
+.ruler{
+    width:100%;
+}
+
+
+}
