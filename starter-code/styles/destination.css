@@ -34,12 +34,10 @@ font-weight: normal;
 
 .h-destination{
 font-family: Barlow Condensed;
-/* font-style: normal;
-font-weight: normal; */
 font-size: 28px;
 line-height: 34px;
 letter-spacing: 4.725px;
-text-transform: uppercase;
+/* text-transform: uppercase; */
 color: #FFFFFF;
 }
 .unordered{
@@ -92,7 +90,7 @@ font-family: Barlow Condensed;
 font-size: 14px;
 line-height: 17px;
 letter-spacing: 2.3625px;
-text-transform: uppercase;
+/* text-transform: uppercase; */
 color: #D0D6F9;
 
 }
@@ -101,7 +99,7 @@ color: #D0D6F9;
     font-family: Bellefair;
 font-size: 28px;
 line-height: 32px;
-text-transform: uppercase;
+/* text-transform: uppercase; */
 color: #FFFFFF;
 }
 
@@ -119,7 +117,7 @@ color: #FFFFFF;
 @media (min-width: 768px) and (max-width: 991.98px) { 
       body{
     background:no-repeat url("/starter-code/assets/destination/background-destination-tablet.jpg") center center;
-    background-size: 100%;
+    background-size: cover;
 }
 #body{
   /* padding-right:0; */
@@ -172,5 +170,9 @@ line-height: 25px;
     width:100%;
 }
 
-
+.h-destination{
+  font-size: 16px;
+line-height: 19px;
+letter-spacing: 2.7px;
+}
 }
