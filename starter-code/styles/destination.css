@@ -10,8 +10,6 @@ body {
 /* NAV_____________________________________________________________ */
 nav {
   font-family: Barlow Condensed;
-  font-style: normal;
-  font-weight: normal;
 }
 
 .figmarect {
@@ -36,6 +34,10 @@ nav {
   line-height: 34px;
   letter-spacing: 4.725px;
   color: #ffffff;
+}
+.h-destination > span {
+  mix-blend-mode: normal;
+  opacity: 0.25;
 }
 
 /* Small list */
@@ -79,7 +81,6 @@ nav {
   font-size: 18px;
   line-height: 32px;
   color: #d0d6f9;
-
 }
 #footer1-section1,
 #footer2-section1 {
@@ -115,7 +116,6 @@ nav {
       center center;
     background-size: cover;
   }
-
 
   .ruler {
     width: 100%;
