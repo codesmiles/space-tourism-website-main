@@ -43,13 +43,11 @@ nav {
 /* Small list */
 .unordered {
   font-family: Barlow Condensed;
-
   line-height: 19px;
   letter-spacing: 2.7px;
 }
 
 .unordered > li {
-  margin: 0em 2em 0em 0em;
   color: #d0d6f9;
 }
 
@@ -120,6 +118,10 @@ nav {
   .ruler {
     width: 100%;
   }
+
+  #section1{
+  width: 50%;
+}
 }
 
 /* // Small devices (landscape phones, 576px and up) */
@@ -161,7 +163,9 @@ nav {
   .ruler {
     width: 100%;
   }
-
+#section1{
+  width: 50%;
+}
   .h-destination {
     font-size: 16px;
     line-height: 19px;

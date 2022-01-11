@@ -52,6 +52,7 @@ nav {
 }
 .doug{
      /* font-size: 56px; */
+     font-size: xxx-large;
 line-height: 64px
 }
 /* // Large devices (desktops, 992px and up) */
@@ -70,6 +71,7 @@ line-height: 64px
       url("/starter-code/assets/crew/background-crew-tablet.jpg") center center;
     background-size: cover;
   }
+
 }
 
 /* // Small devices (landscape phones, 576px and up) */
@@ -79,6 +81,7 @@ line-height: 64px
       url("/starter-code/assets/crew/background-crew-tablet.jpg");
     background-size: 100% 100%;
   }
+  
 }
 
 /* // Extra small devices portrait phones, less than 576px) */
@@ -87,5 +90,11 @@ line-height: 64px
     background-image: url("/starter-code/assets/crew/background-crew-mobile.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+  }
+  .doug{
+      font-size:revert;
+  }
+  .crew{
+      font-size: x-large;
   }
 }
