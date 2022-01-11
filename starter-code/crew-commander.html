@@ -5,15 +5,52 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
+   <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+   <link rel="stylesheet" href="/starter-code/styles/crew.css">
   <title>Frontend Mentor | Space tourism website</title>
 </head>
 <body>
 
-  00 Home
-  01 Destination
-  02 Crew
-  03 Technology
+ <nav class="navbar navbar-expand-sm mt-4 mt-md-0 mt-lg-4 p-0 position-lg-relative">
+   <div class="mx-sm-5">
+     <a href="#" class="navbar-brand"><img src="/figma img/main logo.svg" width="70%" alt=""></a>
+   </div>
+
+   <button class="navbar-toggler border-0" data-toggle="collapse" data-target="#menu">
+     <img src="/figma img/toggler.svg" alt="">
+
+   </button>
+
+   <div class="collapse navbar-collapse" id="menu">
+
+     <div class=" ms-auto ps-5 pe-5"
+       style="background-color:rgba(255, 255, 255, 0.04); backdrop-filter: blur(81.5485px);">
+       <ul class="navbar-nav d-flex justify-content-center pe-lg-5 ps-lg-5">
+         <img src="/figma img/nav Rectangle.svg" alt="" class="position-absolute d-none d-lg-block figmarect">
+
+         <li class="nav-item mx-md-2  py-3 listing ">
+           <a href="/starter-code/index.html" class="nav-link text-white"><b class="mx-lg-2 mx-1 d-md-none d-lg-inline">
+               00</b>
+             <span>Home</span></a>
+         </li>
+         <li class="nav-item mx-md-2 py-3 listing ">
+           <a href="/starter-code/destination-moon.html" class="nav-link text-white"><b
+               class="mx-lg-2 mx-1 d-md-none d-lg-inline">01</b><span>Destination</span> </a>
+         </li>
+         <li class="nav-item mx-md-2 py-3 listing active-listing">
+           <a href="crew-commander.html" class="nav-link text-white"><b class="mx-lg-2 mx-1 d-md-none d-lg-inline">02</b>
+             <span>Crew</span> </a>
+         </li>
+         <li class="nav-item mx-md-2  py-3 listing">
+           <a href="#" class="nav-link text-white"><b
+               class="mx-lg-2 mx-1 d-md-none d-lg-inline">03</b><span>Technology</span> </a>
+         </li>
+       </ul>
+     </div>
+   </div>
+
+
+ </nav>
 
   02 Meet your crew
 
@@ -23,5 +60,16 @@
   Douglas Gerald Hurley is an American engineer, former Marine Corps pilot 
   and former NASA astronaut. He launched into space for the third time as 
   commander of Crew Dragon Demo-2.
+
+   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+   </script>
+   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+     integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+   </script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+     integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+   </script>
+   <script src="/starter-code/script/destination.js"></script>
 </body>
 </html>

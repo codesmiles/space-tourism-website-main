@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bellefair&display=swap");
+/* font-family: 'Barlow', sans-serif;
+font-family: 'Barlow Condensed', sans-serif;
+font-family: 'Bellefair', serif; */
+
+body{
+    color: #ffffff;
+}
+
+nav{
+font-family: Barlow Condensed;
+font-style: normal;
+font-weight: normal;
+}
+
+.figmarect{
+   right:37em;
+    top:2.4em;
+    width:22em;
+}
+
+.listing:hover{
+  border-bottom: 4px solid #fff;
+  transition: all 300ms linear;
+  opacity: 0.5;
+  cursor: pointer;
+}
+.active-listing{
+  border-bottom: 4px solid #fff;
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  body {
+    background-image: url("/starter-code/assets/crew/background-crew-desktop.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  body {
+    background: no-repeat
+      url("/starter-code/assets/crew/background-crew-tablet.jpg")
+      center center;
+    background-size: cover;
+  }
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 768.98px) {
+  body {
+    background: no-repeat
+      url("/starter-code/assets/crew/background-crew-tablet.jpg");
+    background-size: 100% 100%;
+  }
+}
+
+/* // Extra small devices portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  body {
+    background-image: url("/starter-code/assets/crew/background-crew-mobile.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+}
