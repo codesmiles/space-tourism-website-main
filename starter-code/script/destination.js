@@ -23,6 +23,7 @@ fetch("script/json file/data.json")
     console.log(destinations);
 
     arrofDestinations.map((destination, index, arr) => {
+     
       destination.addEventListener("click", () => {
         head.innerHTML = destinations[index].name;
         body.innerHTML = destinations[index].description;
@@ -33,8 +34,6 @@ fetch("script/json file/data.json")
       });
 
     });
-
-
     for (var i = 0; i < arrofDestinations.length; i++) {
       arrofDestinations[i].addEventListener("click", function () {
         var current = document.getElementsByClassName("active-unordered");
