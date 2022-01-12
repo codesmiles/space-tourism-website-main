@@ -50,9 +50,6 @@ nav {
 #moon:link,#mars:link,#europa:link,#titan:link {
   color: #d0d6f9;
 }
-/* .unordered a:target{
-   border-bottom: 4px solid #fff;
-} */
 
 .unordered a:hover {
   border-bottom: 4px solid #fff;
