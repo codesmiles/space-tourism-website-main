@@ -47,15 +47,19 @@ nav {
   letter-spacing: 2.7px;
 }
 
-#moon,#mars,#europa,#titan {
+#moon:link,#mars:link,#europa:link,#titan:link {
   color: #d0d6f9;
 }
+/* .unordered a:target{
+   border-bottom: 4px solid #fff;
+} */
 
 .unordered a:hover {
   border-bottom: 4px solid #fff;
   transition: all 300ms linear;
   
 }
+
 .active-unordered {
   border-bottom: 4px solid #fff;
 }
