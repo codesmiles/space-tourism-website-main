@@ -47,14 +47,14 @@ nav {
   letter-spacing: 2.7px;
 }
 
-.unordered > li {
+.unordered a {
   color: #d0d6f9;
 }
 
-.unordered > li:hover {
+.unordered a:hover {
   border-bottom: 4px solid #fff;
   transition: all 300ms linear;
-  cursor: pointer;
+  
 }
 .active-unordered {
   border-bottom: 4px solid #fff;
@@ -80,8 +80,8 @@ nav {
   line-height: 32px;
   color: #d0d6f9;
 }
-#footer1-section1,
-#footer2-section1 {
+.footer1-section1,
+.footer2-section1 {
   font-family: Barlow Condensed;
   font-size: 14px;
   line-height: 17px;

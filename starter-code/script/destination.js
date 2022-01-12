@@ -1,32 +1,66 @@
-const data = () => {
-    const section1 = document.querySelector('#section1');
-    const head = document.querySelector('#header');
-    const body = document.querySelector('#body');
-    const footer1section1 = document.querySelector('#footer1-section1');
-    const footer1section2 = document.querySelector('#footer1-section2');
-    const footer2section1 = document.querySelector('#footer2-section1');
-    const footer2section2 = document.querySelector('#footer2-section2');
-    
- 
- 
-    
-};
+const moon = document.querySelector('#moon');
+const mars = document.querySelector('#mars');
+const europa = document.querySelector('#europa');
+const titan = document.querySelector('#titan');
 
-fetch("starter-code/data.json")
-    .then((response) => {
-        console.log("resolved", response);
-        return response.json();
+// const arrofDestinations = [moon, mars, europa, titan];
+
+const section1 = document.querySelector("#section1");
+const head = document.querySelector("#header");
+const body = document.querySelector("#body");
+
+const footer1section2 = document.querySelector("#footer1-section2");
+const footer2section2 = document.querySelector("#footer2-section2");
+
+
+fetch("script/json file/data.json")
+  .then((response) => {
+    console.log("resolved", response);
+    return response.json();
+  })
+  .then((data) => {
+    const { destinations } = data;
+    console.log(destinations);
+    moon.addEventListener("click", () => {
+        head.innerHTML = destinations[0].name;
+      body.innerHTML = destinations[0].description;
+      footer1section2.innerHTML = destinations[0].distance;
+      footer2section2.innerHTML = destinations[0].travel;
+     });
+    mars.addEventListener('click', () => { 
+      head.innerHTML = destinations[1].name;
+      body.innerHTML = destinations[1].description;
+       footer1section2.innerHTML = destinations[1].distance;
+       footer2section2.innerHTML = destinations[1].travel;
     })
-    .then((data) => {
-        console.log("data", data[body]);
-     })
+    europa.addEventListener('click', () => { 
+      head.innerHTML = destinations[2].name;
+      body.innerHTML = destinations[2].description;
+      footer1section2.innerHTML = destinations[2].distance;
+      footer2section2.innerHTML = destinations[2].travel;
+    });
+    titan.addEventListener('click', () => {
+      head.innerHTML = destinations[3].name;
+      body.innerHTML = destinations[3].description;
+      footer1section2.innerHTML = destinations[3].distance;
+      footer2section2.innerHTML = destinations[3].travel;
     
-    //   .then((data) => {
-    //   console.log(data.body)
-    //   })
-      .catch((err) => {
-        console.log("rejected", err);
-      });
+     })
+
+  })
+
+  .catch((err) => console.log("rejected", err));
+
+
+
+
+
+//   .then((data) => {
+//   console.log(data.body)
+//   })
+// .catch((err) => {
+//   console.log("rejected", err)
+// })
 
 //In case a promise is returned then .then to display your promise
 
