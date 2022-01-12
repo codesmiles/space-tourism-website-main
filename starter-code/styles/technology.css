@@ -28,11 +28,34 @@ nav {
   border-bottom: 4px solid #fff;
 }
 
+.launch{
+  font-family: Barlow Condensed;
+/* font-style: normal;
+font-weight: normal; */
+}
+.term{
+  font-family: Barlow Condensed;
+  color:#D0D6F9;
+  /* line-height: 19px; */
+letter-spacing: 2.7px;
+
+}
+
+.subnavv{
+    color: #fff;
+}
+.subnavv:hover{
+ background-color: #fff; 
+ color: black;  
+ 
+}
+
+
 
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   body {
-    background-image: url("/starter-code/assets/crew/background-crew-desktop.jpg");
+    background-image: url("/starter-code/assets/technology/background-technology-desktop.jpg");
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -42,7 +65,7 @@ nav {
 @media (min-width: 768px) and (max-width: 991.98px) {
   body {
     background: no-repeat
-      url("/starter-code/assets/crew/background-crew-tablet.jpg") center center;
+      url("/starter-code/assets/technology/background-technology-tablet.jpg") center center;
     background-size: cover;
   }
 
@@ -52,7 +75,7 @@ nav {
 @media (min-width: 576px) and (max-width: 768.98px) {
   body {
     background: no-repeat
-      url("/starter-code/assets/crew/background-crew-tablet.jpg");
+      url("/starter-code/assets/technology/background-technology-tablet.jpg");
     background-size: 100% 100%;
   }
   
@@ -61,7 +84,7 @@ nav {
 /* // Extra small devices portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
   body {
-    background-image: url("/starter-code/assets/crew/background-crew-mobile.jpg");
+    background-image: url("/starter-code/assets/technology/background-technology-mobile.jpg");
     background-repeat: no-repeat;
     background-size: cover;
   }
