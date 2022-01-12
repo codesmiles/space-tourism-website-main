@@ -28,29 +28,22 @@ nav {
   border-bottom: 4px solid #fff;
 }
 
-.launch{
+.launch {
   font-family: Barlow Condensed;
-/* font-style: normal;
-font-weight: normal; */
 }
-.term{
+.term {
   font-family: Barlow Condensed;
-  color:#D0D6F9;
-  /* line-height: 19px; */
-letter-spacing: 2.7px;
-
+  color: #d0d6f9;
+  letter-spacing: 2.7px;
 }
 
-.subnavv{
-    color: #fff;
+.subnavv {
+  color: #fff;
 }
-.subnavv:hover{
- background-color: #fff; 
- color: black;  
- 
+.subnavv:hover {
+  background-color: #fff;
+  color: black;
 }
-
-
 
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
@@ -65,10 +58,10 @@ letter-spacing: 2.7px;
 @media (min-width: 768px) and (max-width: 991.98px) {
   body {
     background: no-repeat
-      url("/starter-code/assets/technology/background-technology-tablet.jpg") center center;
+      url("/starter-code/assets/technology/background-technology-tablet.jpg")
+      center center;
     background-size: cover;
   }
-
 }
 
 /* // Small devices (landscape phones, 576px and up) */
@@ -78,7 +71,6 @@ letter-spacing: 2.7px;
       url("/starter-code/assets/technology/background-technology-tablet.jpg");
     background-size: 100% 100%;
   }
-  
 }
 
 /* // Extra small devices portrait phones, less than 576px) */
@@ -88,10 +80,10 @@ letter-spacing: 2.7px;
     background-repeat: no-repeat;
     background-size: cover;
   }
-  .doug{
-      font-size:revert;
+  .doug {
+    font-size: revert;
   }
-  .crew{
-      font-size: x-large;
+  .crew {
+    font-size: x-large;
   }
 }
