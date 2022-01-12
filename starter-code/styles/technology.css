@@ -36,6 +36,21 @@ nav {
   color: #d0d6f9;
   letter-spacing: 2.7px;
 }
+.vehicle{
+  font-family: 'Bellefair', serif;
+  font-size:xxx-large;
+}
+.vehicle~p{
+  font-family: Barlow;
+/* font-style: normal;
+font-weight: normal; */
+font-size: 18px;
+/* line-height: 32px; */
+/* or 178% */
+
+
+color: #D0D6F9;
+}
 
 .subnavv {
   color: #fff;
