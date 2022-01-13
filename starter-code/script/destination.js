@@ -20,17 +20,19 @@ fetch("script/json file/data.json")
   })
   .then((data) => {
     const { destinations } = data;
-    console.log(destinations);
+    // console.log(destinations);
 
     arrofDestinations.map((destination, index) => {
      
-      destination.addEventListener("click", () => {
+      destination.addEventListener("click", (e) => {
         head.innerHTML = destinations[index].name;
         body.innerHTML = destinations[index].description;
         footer1section2.innerHTML = destinations[index].distance;
         footer2section2.innerHTML = destinations[index].travel;
         img.src = destinations[index].images.png;
-        console.log(destination);
+        img.src = "image-victor-glover.webp";
+        e.preventDefault();
+        // console.log(destination);
       });
 
     });
