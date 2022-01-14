@@ -29,16 +29,16 @@ fetch("script/json file/data.json")
       });
     });
 
-    // for (var i = 0; i < arrofDestinations.length; i++) {
-    //   arrofDestinations[i].addEventListener("click", function () {
-    //     var current = document.getElementsByClassName("active-unordered");
-    //     current[0].className = current[0].className.replace(
-    //       " active-unordered",
-    //       ""
-    //     );
-    //     this.className += " active-unordered";
-    //   });
-    // }
+    for (var i = 0; i < arrOfLinks.length; i++) {
+      arrOfLinks[i].addEventListener("click", function () {
+        var current = document.getElementsByClassName("active-subnavv");
+        current[0].className = current[0].className.replace(
+          " active-subnavv",
+          ""
+        );
+        this.className += " active-subnavv";
+      });
+    }
   })
 
   .catch((err) => console.log("rejected", err));
