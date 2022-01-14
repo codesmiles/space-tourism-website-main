@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](\Capture.PNG)
+![](/Capture.PNG)
 
 ### Links
 
