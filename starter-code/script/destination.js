@@ -30,7 +30,6 @@ fetch("script/json file/data.json")
         footer1section2.innerHTML = destinations[index].distance;
         footer2section2.innerHTML = destinations[index].travel;
         img.src = destinations[index].images.png;
-        img.src = "image-victor-glover.webp";
         e.preventDefault();
         // console.log(destination);
       });

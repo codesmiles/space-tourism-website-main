@@ -30,43 +30,38 @@ fetch("script/json file/data.json")
         role.innerHTML = crew[index].role;
         username.innerHTML = crew[index].name;
         bio.innerHTML = crew[index].bio;
-        dp.src = crew[index].images.png;
+          dp.src = crew[index].images.png;
+         
+              e.preventDefault();
 
-        e.preventDefault();
+          
       });
     });
 
       
     //   TO BE CONTINUED
     for (var i = 0; i < arrOfImg.length; i++) {
-      arrOfImg[i].addEventListener("click", function () {
-        var current = document.getElementsByClassName("active-img");
+        // console.log(`${ arrOfImg[i].src}`)
+        arrOfImg[i].addEventListener("click", function () {
+          let event = arrOfImg[i];
+          console.log(arrOfImg[i])
+        //   if (.src !== img1.src) {
+        //    arrOfImg[i].src = "/figma img/Oval.svg";
+        //  }
+        // var current = document.getElementsByClassName("active-img");
         // current[0].src = "/figma img/Oval Copy.svg";
 
             //  current[0].src = current[0].src.replace(
             //    "/figma img/Oval.svg",
             //    "/figma img/Oval Copy.svg"
             //  );
-        this.src = "/figma img/Oval.svg";
+        // this.src = "/figma img/Oval.svg";
       });
     }
   })
   .catch((err) => console.log("rejected", err));
 
-//    img1.src = img1.src.replace(
-//      "/figma img/Oval.svg",
-//      "/figma img/Oval Copy.svg"
-//    );
+
 console.log(img1);
 console.log(img2);
 console.log(arrOfImg);
-//  for (var i = 0; i < arrofDestinations.length; i++) {
-//    arrofDestinations[i].addEventListener("click", function () {
-//      var current = document.getElementsByClassName("active-unordered");
-//      current[0].className = current[0].className.replace(
-//        " active-unordered",
-//        ""
-//      );
-//      this.className += " active-unordered";
-//    });
-//  }
