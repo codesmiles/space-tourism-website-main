@@ -10,9 +10,9 @@ font-size: 16px;
 
 }
 
-.bgImg{
+/* .bgImg{
 display: none;
-}
+} */
 nav{
 font-family: Barlow Condensed;
 font-style: normal;
@@ -63,13 +63,15 @@ color: #D0D6F9;
 @media (max-width: 575.98px) {
  body{
     background-image: url("/starter-code/assets/home/background-home-mobile.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
    
 }
 
-.bgImg{
+/* .bgImg{
 display: block;
 width: 100%;
-}
+} */
 
 
 .main{
