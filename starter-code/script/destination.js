@@ -15,7 +15,7 @@ const footer2section2 = document.querySelector("#footer2-section2");
 
 fetch("script/json file/data.json")
   .then((response) => {
-    console.log("resolved", response);
+    // console.log("resolved", response);
     return response.json();
   })
   .then((data) => {
