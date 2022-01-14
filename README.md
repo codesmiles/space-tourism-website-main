@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](\figma img/Capture.PNG)
+![](\Capture.PNG)
 
 ### Links
 
