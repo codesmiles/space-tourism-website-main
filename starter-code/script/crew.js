@@ -46,16 +46,16 @@ fetch("script/json file/data.json")
           let event = arrOfImg[i];
           console.log(arrOfImg[i])
         //   if (.src !== img1.src) {
-        //    arrOfImg[i].src = "/figma img/Oval.svg";
+        //    arrOfImg[i].src = "/figma-img/Oval.svg";
         //  }
         // var current = document.getElementsByClassName("active-img");
-        // current[0].src = "/figma img/Oval Copy.svg";
+        // current[0].src = "/figma-img/Oval Copy.svg";
 
             //  current[0].src = current[0].src.replace(
-            //    "/figma img/Oval.svg",
-            //    "/figma img/Oval Copy.svg"
+            //    "/figma-img/Oval.svg",
+            //    "/figma-img/Oval Copy.svg"
             //  );
-        // this.src = "/figma img/Oval.svg";
+        // this.src = "/figma-img/Oval.svg";
       });
     }
   })
